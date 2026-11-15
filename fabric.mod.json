@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "utilclient",
+  "version": "${version}",
+  "name": "UtilClient",
+  "description": "Entity ESP, entity info overlay, reach adjustment, flight, freecam, and a ClickGUI.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.utilclient.UtilClient"] },
+  "mixins": ["utilclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

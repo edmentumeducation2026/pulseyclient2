@@ -1,0 +1,8 @@
+{
+  "key.utilclient.gui": "Open ClickGUI",
+  "key.utilclient.flight": "Toggle Flight",
+  "key.utilclient.freecam": "Toggle Freecam",
+  "key.utilclient.reach_up": "Reach +0.5",
+  "key.utilclient.reach_down": "Reach -0.5",
+  "category.utilclient": "UtilClient"
+}
